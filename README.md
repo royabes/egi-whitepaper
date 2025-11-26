@@ -2,7 +2,7 @@
 
 **Roy Abes**
 IdeaJar | Alberta, Canada
-roy.abes@gmail.com
+
 
 **Version 1.1 | November 2025**
 
