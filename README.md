@@ -159,20 +159,20 @@ Each EGI cycle consists of five phases:
 ┌─────────────────────────────────────────────────────────────┐
 │                      EGI CYCLE                              │
 │                                                             │
-│   ┌─────────┐    ┌─────────┐    ┌─────────────────────────┐│
-│   │  SPARK  │───▶│ GATHER  │───▶│ EMERGE + VALIDATE      ││
-│   │ Question│    │  Ideas  │    │ Patterns + Community   ││
-│   └─────────┘    └─────────┘    │ Feedback               ││
-│                                 └───────────┬─────────────┘│
-│                                             │              │
-│                                             ▼              │
-│   ┌─────────┐                  ┌─────────────────────────┐ │
-│   │ EVOLVE  │◀─────────────────│ ENRICH                  │ │
-│   │  Next   │                  │ Literature +            │ │
-│   │Question │                  │ Participant Feedback    │ │
-│   └────┬────┘                  └─────────────────────────┘ │
-│        │                                                   │
-│        └──────────────▶ NEXT CYCLE                        │
+│   ┌─────────┐    ┌─────────┐    ┌─────────────────────────┐ │
+│   │  SPARK  │───▶│ GATHER  │───▶│ EMERGE + VALIDATE       │ │
+│   │ Question│    │  Ideas  │    │ Patterns + Community    │ │
+│   └─────────┘    └─────────┘    │ Feedback                │ │
+│                                 └───────────┬─────────────┘ │
+│                                             │               │
+│                                             ▼               │
+│   ┌─────────┐                  ┌─────────────────────────┐  │
+│   │ EVOLVE  │◀─────────────────│ ENRICH                  │  │
+│   │  Next   │                  │ Literature +            │  │
+│   │Question │                  │ Participant Feedback    │  │
+│   └────┬────┘                  └─────────────────────────┘  │
+│        │                                                    │
+│        └──────────────▶ NEXT CYCLE                          │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -412,18 +412,18 @@ EGI implementation includes:
 
 EGI has been piloted across sectors:
 
-1. **Filipino-Canadian Youth Mental Health** (Vancouver, 2025)
+1. **Filipino-Canadian Youth Mental Health** (Canada, 2025)
    - 84 ideas collected across 2 cycles
    - 12 emergent patterns identified
    - Key finding: Intergenerational tension around mental health stigma requires culturally-specific bridge-building approaches
    - Community validation added nuance around informal family support systems
 
-2. **Climate Justice Community Dialogue** (Pacific Northwest, 2025)
+2. **Climate Justice Community Dialogue** 
    - Multi-stakeholder participation
    - Unexpected pattern: Economic anxiety and climate concern not opposed but interlinked
    - Literature enrichment connected findings to environmental justice scholarship
 
-3. **Organizational Culture Assessment** (Tech startup, 2025)
+3. **Organizational Culture Assessment** 
    - Internal EGI session on team dynamics
    - Surfaced unspoken tensions about remote work policies
    - Evolved questions led to concrete policy recommendations
@@ -559,11 +559,7 @@ Wilson, S. (2008). *Research is ceremony: Indigenous research methods*. Fernwood
 
 ---
 
-## Acknowledgments
 
-The author thanks the communities who participated in EGI pilot sessions for their trust and contributions. Special thanks to the Filipino-Canadian community in Vancouver for helping shape culturally-grounded question approaches.
-
----
 
 ## Citation
 
@@ -579,40 +575,40 @@ Abes, R. (2025). Emergent Generative Inquiry (EGI™): A Novel AI-Augmented Meth
 ├────────────────────────────────────────────────────────────────────────────┤
 │                                                                            │
 │  ┌──────────────────────────────────────────────────────────────────────┐  │
-│  │ 1. SPARK                                                              │  │
-│  │    AI detects cultural context → Selects methodologies →              │  │
-│  │    Generates question options → Facilitator selects/edits             │  │
+│  │ 1. SPARK                                                             │  │
+│  │    AI detects cultural context → Selects methodologies →             │  │
+│  │    Generates question options → Facilitator selects/edits            │  │
 │  └─────────────────────────────────┬────────────────────────────────────┘  │
 │                                    ▼                                       │
 │  ┌──────────────────────────────────────────────────────────────────────┐  │
-│  │ 2. GATHER                                                             │  │
-│  │    Participants submit ideas → Anonymous or attributed →              │  │
-│  │    Real-time count visible → Asynchronous participation               │  │
+│  │ 2. GATHER                                                            │  │
+│  │    Participants submit ideas → Anonymous or attributed →             │  │
+│  │    Real-time count visible → Asynchronous participation              │  │
 │  └─────────────────────────────────┬────────────────────────────────────┘  │
 │                                    ▼                                       │
 │  ┌──────────────────────────────────────────────────────────────────────┐  │
-│  │ 3. EMERGE                                                             │  │
-│  │    AI embeds ideas → Clusters by similarity → Names patterns →        │  │
-│  │    Generates narratives → Maps relationships                          │  │
+│  │ 3. EMERGE                                                            │  │
+│  │    AI embeds ideas → Clusters by similarity → Names patterns →       │  │
+│  │    Generates narratives → Maps relationships                         │  │
 │  └─────────────────────────────────┬────────────────────────────────────┘  │
 │                                    ▼                                       │
 │  ┌──────────────────────────────────────────────────────────────────────┐  │
-│  │ 3b. VALIDATE (Community Pattern Feedback)                             │  │
-│  │    Participants see patterns → Confirm, challenge, add nuance →       │  │
-│  │    Suggest missing themes → AI integrates feedback                    │  │
+│  │ 3b. VALIDATE (Community Pattern Feedback)                            │  │
+│  │    Participants see patterns → Confirm, challenge, add nuance →      │  │
+│  │    Suggest missing themes → AI integrates feedback                   │  │
 │  └─────────────────────────────────┬────────────────────────────────────┘  │
 │                                    ▼                                       │
 │  ┌──────────────────────────────────────────────────────────────────────┐  │
-│  │ 4. ENRICH                                                             │  │
-│  │    Search academic literature → Search web sources →                  │  │
-│  │    Identify frameworks → Collect participant feedback on patterns →   │  │
-│  │    Synthesize literature + community wisdom                           │  │
+│  │ 4. ENRICH                                                            │  │
+│  │    Search academic literature → Search web sources →                 │  │
+│  │    Identify frameworks → Collect participant feedback on patterns →  │  │
+│  │    Synthesize literature + community wisdom                          │  │
 │  └─────────────────────────────────┬────────────────────────────────────┘  │
 │                                    ▼                                       │
 │  ┌──────────────────────────────────────────────────────────────────────┐  │
-│  │ 5. EVOLVE                                                             │  │
-│  │    Build on patterns → Incorporate validation feedback →              │  │
-│  │    Generate deeper question → Maintain cultural grounding             │  │
+│  │ 5. EVOLVE                                                            │  │
+│  │    Build on patterns → Incorporate validation feedback →             │  │
+│  │    Generate deeper question → Maintain cultural grounding            │  │
 │  └─────────────────────────────────┬────────────────────────────────────┘  │
 │                                    │                                       │
 │                                    ▼                                       │
