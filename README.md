@@ -14,7 +14,7 @@ This paper introduces Emergent Generative Inquiry (EGI™), a novel participator
 
 Two key innovations distinguish EGI: First, literature review occurs *after* pattern emergence rather than before, ensuring that community voices shape the inquiry rather than academic frameworks. Second, participants actively validate and enrich AI-discovered patterns, creating a human-AI collaborative loop that leverages the strengths of both.
 
-The methodology draws from participatory action research traditions including Sikolohiyang Pilipino, Ubuntu philosophy, Indigenous ways of knowing, and Community-Based Participatory Research (CBPR). EGI is positioned as a **complement to traditional academic research**—extending the reach and accessibility of rigorous participatory methods while democratizing access to sophisticated research tools.
+The methodology draws from participatory action research traditions including Sikolohiyang Pilipino, Ubuntu philosophy, Indigenous ways of knowing, and Community-Based Participatory Research (CBPR). EGI is positioned as a **complement to traditional academic research**, extending the reach and accessibility of rigorous participatory methods while democratizing access to sophisticated research tools.
 
 Initial implementations across corporate, nonprofit, government, and community sectors demonstrate EGI's effectiveness in surfacing nuanced perspectives that traditional methods often miss. This paper presents the theoretical foundations, technical architecture, cross-sector applications, and preliminary findings from pilot deployments.
 
@@ -26,7 +26,7 @@ Initial implementations across corporate, nonprofit, government, and community s
 
 ### 1.1 The Problem with Traditional Community Engagement
 
-Traditional methods of gathering community input—surveys, town halls, focus groups—suffer from fundamental limitations that systematically exclude certain voices and perspectives:
+Traditional methods of gathering community input (surveys, town halls, focus groups) suffer from fundamental limitations that systematically exclude certain voices and perspectives:
 
 1. **Predetermined Categories**: Surveys force responses into researcher-defined boxes, missing emergent themes
 2. **Synchronous Participation**: Town halls favor those with schedule flexibility and public speaking comfort
@@ -35,11 +35,11 @@ Traditional methods of gathering community input—surveys, town halls, focus gr
 5. **One-Way Extraction**: Communities provide data but rarely see synthesized results returned to them
 6. **Access Barriers**: Rigorous participatory methods require trained researchers and substantial resources
 
-These limitations are not merely methodological inconveniences—they represent systematic barriers to genuine collective wisdom discovery and democratic participation in knowledge creation.
+These limitations are not merely methodological inconveniences. They represent systematic barriers to genuine collective wisdom discovery and democratic participation in knowledge creation.
 
 ### 1.2 The Democratization Imperative
 
-The physical sciences have rapidly embraced AI tools, from protein folding prediction to particle physics analysis. Meanwhile, the humanities and social sciences—the disciplines most concerned with understanding human experience—have been slower to integrate AI capabilities.
+The physical sciences have rapidly embraced AI tools, from protein folding prediction to particle physics analysis. Meanwhile, the humanities and social sciences, the disciplines most concerned with understanding human experience, have been slower to integrate AI capabilities.
 
 This paper argues that AI offers a unique opportunity to **democratize participatory research methodology**. Large language models (LLMs), trained on the full breadth of human linguistic expression, can:
 
@@ -84,7 +84,7 @@ Traditional academic research remains essential for theory development, longitud
 
 ### 2.1 Participatory Action Research Traditions
 
-EGI builds upon—rather than replaces—established participatory traditions:
+EGI builds upon, rather than replaces, established participatory traditions:
 
 **Community-Based Participatory Research (CBPR)**: Emphasizes equitable partnership between researchers and communities, with shared decision-making throughout the research process (Israel et al., 1998). EGI operationalizes CBPR principles in a technology-mediated format.
 
@@ -98,7 +98,7 @@ EGI explicitly incorporates non-Western ways of knowing:
 
 **Sikolohiyang Pilipino (Filipino Psychology)**: Centers the concept of *kapwa* (shared identity/interconnectedness), recognizing that the self is inherently relational. *Pakikiramdam* (shared inner perception) guides culturally-appropriate engagement (Enriquez, 1992).
 
-**Ubuntu Philosophy**: "I am because we are" (*Umuntu ngumuntu ngabantu*)—individual wisdom is inseparable from collective wisdom (Mbiti, 1969).
+**Ubuntu Philosophy**: "I am because we are" (*Umuntu ngumuntu ngabantu*). Individual wisdom is inseparable from collective wisdom (Mbiti, 1969).
 
 **Indigenous Ways of Knowing**: Seven Generations thinking, land-based wisdom, and the understanding that knowledge is relational and contextual (Wilson, 2008).
 
@@ -127,7 +127,7 @@ This sequencing ensures that:
 - Community wisdom is **validated before** being connected to academic discourse
 - The literature **serves** the community's emergent understanding, not vice versa
 
-**This is not anti-academic**—it is a methodological choice that places community voice *first* in the interpretive sequence while still benefiting from academic knowledge.
+**This is not anti-academic.** It is a methodological choice that places community voice *first* in the interpretive sequence while still benefiting from academic knowledge.
 
 ### 2.5 Human-AI Collaborative Intelligence
 
@@ -219,7 +219,7 @@ This phase combines AI pattern recognition with human validation:
 **Community Validation** (Key EGI Innovation):
 After AI discovers initial patterns, participants can:
 - **Confirm**: "Yes, this captures what I meant"
-- **Challenge**: "This misses the point—here's what I actually meant"
+- **Challenge**: "This misses the point. Here's what I actually meant"
 - **Add Nuance**: "This is partially right, but also consider..."
 - **Suggest Missing Themes**: "There's a pattern you didn't find..."
 
@@ -261,7 +261,7 @@ The cycle concludes by generating the next question that:
 - Cycle 1 Question: "What gives you hope for young people in our community?"
 - Emerged Pattern: Strong theme around intergenerational mentorship
 - Community Validation: Emphasized importance of informal mentorship, not just formal programs
-- Cycle 2 Question: "Many of you shared stories of informal mentors who made a difference—neighbors, coaches, extended family. What conditions in our community allow these relationships to form naturally? What gets in the way?"
+- Cycle 2 Question: "Many of you shared stories of informal mentors who made a difference: neighbors, coaches, extended family. What conditions in our community allow these relationships to form naturally? What gets in the way?"
 
 ### 3.7 Multi-Cycle Progression
 
@@ -293,7 +293,7 @@ EGI has been designed for deployment across multiple sectors. The following exam
 | **Culture Assessment** | "When do you feel most proud to work here? What triggers that feeling?" | Organizational psychology, engagement research |
 | **DEI Assessment** | "When have you felt fully included at work? What made that possible?" | DEI research, inclusion frameworks |
 | **Change Management** | "What's one thing about how we work today that you'd fight to preserve?" | Change management literature |
-| **Customer Experience** | "Describe a moment interacting with us that you'll remember—good or bad." | CX research, service design |
+| **Customer Experience** | "Describe a moment interacting with us that you'll remember, good or bad." | CX research, service design |
 | **M&A Integration** | "What's something about your company's culture that the other company should adopt?" | M&A integration research |
 
 ### 4.2 Nonprofit / NGO / Civil Society
@@ -314,13 +314,13 @@ EGI has been designed for deployment across multiple sectors. The following exam
 | **Public Services** | "Describe your experience trying to [access service]. What worked?" | User-centered design, service delivery |
 | **Community Visioning** | "What do you hope [City] will be like in 20 years?" | Urban planning, futures research |
 | **Emergency Response** | "During [emergency], what help mattered most? What was missing?" | Disaster response literature |
-| **Public Safety** | "Describe a moment when you felt safe—or unsafe—in our community." | Community safety research |
+| **Public Safety** | "Describe a moment when you felt safe, or unsafe, in our community." | Community safety research |
 
 ### 4.4 Education / Academia
 
 | Use Case | Example SPARK Question | ENRICH Value |
 |----------|------------------------|--------------|
-| **Campus Climate** | "Describe a moment when you felt like you belonged—or didn't—at this university." | Student development theory, belonging research |
+| **Campus Climate** | "Describe a moment when you felt like you belonged, or didn't, at this university." | Student development theory, belonging research |
 | **Curriculum Development** | "What's one thing you learned here that you'll use forever? What's missing?" | Curriculum theory |
 | **Participatory Research** | Research question developed with community | Full academic literature integration |
 | **Student Mental Health** | "When have you struggled silently? What would have helped you reach out?" | Student wellbeing research |
@@ -453,7 +453,7 @@ Current limitations include:
 
 ### 7.1 Implications for Participatory Research
 
-EGI represents an evolution—not a replacement—of participatory methods:
+EGI represents an evolution, not a replacement, of participatory methods:
 
 1. **From Extraction to Reciprocity**: Communities receive synthesized insights, not just participate in data collection
 2. **From Categories to Emergence**: Research frameworks follow rather than lead
@@ -465,7 +465,7 @@ EGI represents an evolution—not a replacement—of participatory methods:
 
 EGI contributes to a broader movement toward democratizing research methodology:
 
-**The Opportunity**: Large language models are trained on human language—the accumulated expression of human experience, wisdom, and knowledge. This makes them uniquely suited to assist in understanding human perspectives at scale.
+**The Opportunity**: Large language models are trained on human language, the accumulated expression of human experience, wisdom, and knowledge. This makes them uniquely suited to assist in understanding human perspectives at scale.
 
 **The Challenge**: Without careful design, AI-mediated research could simply replicate and amplify existing power structures in knowledge production.
 
@@ -529,7 +529,7 @@ EGI is positioned as a **complement to academic research**, not a competitor. It
 
 Early pilot deployments across corporate, nonprofit, government, and community sectors demonstrate promise: unexpected themes emerge, participation increases, and communities report feeling genuinely heard. Significant work remains to validate these findings at scale, address AI bias concerns, and develop facilitator training programs.
 
-The name "Emergent Generative Inquiry" captures the methodology's essence: patterns *emerge* from community input, each cycle *generates* new understanding, and genuine *inquiry*—curiosity rather than confirmation—drives the process.
+The name "Emergent Generative Inquiry" captures the methodology's essence: patterns *emerge* from community input, each cycle *generates* new understanding, and genuine *inquiry* (curiosity rather than confirmation) drives the process.
 
 As AI capabilities continue to advance, methodologies like EGI offer a path toward technology that amplifies rather than replaces human wisdom, and that serves communities rather than extracting from them. The question is not whether AI will transform social research, but whether that transformation will democratize or concentrate the power to create knowledge. EGI is one contribution to ensuring the former.
 
@@ -624,8 +624,8 @@ Abes, R. (2025). Emergent Generative Inquiry (EGI™): A Novel AI-Augmented Meth
 
 | Cycle | Question | Emerged Pattern | Community Validation | Next Question |
 |-------|----------|-----------------|---------------------|---------------|
-| 1 | "What does mental wellness mean to you, in the context of your cultural background?" | Strong theme: Family expectations create pressure | Validation feedback: "Pressure isn't just negative—it shows care. The issue is HOW it's expressed." | → |
-| 2 | "Many shared that family care can feel like pressure. How might families express care for your mental health in ways that feel supportive rather than pressuring?" | Theme: Need for new language to discuss mental health with elders | Validation: "It's not about new language—it's about finding the right moments and places for these conversations." | → |
+| 1 | "What does mental wellness mean to you, in the context of your cultural background?" | Strong theme: Family expectations create pressure | Validation feedback: "Pressure isn't just negative. It shows care. The issue is HOW it's expressed." | → |
+| 2 | "Many shared that family care can feel like pressure. How might families express care for your mental health in ways that feel supportive rather than pressuring?" | Theme: Need for new language to discuss mental health with elders | Validation: "It's not about new language. It's about finding the right moments and places for these conversations." | → |
 | 3 | "You've shared that finding the right moment matters more than finding the right words. What does that look like in your family? When have those moments happened naturally?" | Theme: Informal moments (car rides, cooking together) work better than formal conversations | Validation: "Yes! These indirect approaches respect *hiya* (sense of propriety) while still allowing connection." | → |
 
 ---
