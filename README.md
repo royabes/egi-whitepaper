@@ -14,7 +14,7 @@ This paper introduces Emergent Generative Inquiry (EGI™), a novel participator
 
 Two key innovations distinguish EGI: First, literature review occurs *after* pattern emergence rather than before, ensuring that community voices shape the inquiry rather than academic frameworks. Second, participants actively validate and enrich AI-discovered patterns, creating a human-AI collaborative loop that leverages the strengths of both.
 
-The methodology draws from participatory action research traditions including Sikolohiyang Pilipino, Ubuntu philosophy, Indigenous ways of knowing, and Community-Based Participatory Research (CBPR). EGI is positioned as a **complement to traditional academic research**, extending the reach and accessibility of rigorous participatory methods while democratizing access to sophisticated research tools.
+The methodology draws from participatory action research traditions. EGI is positioned as a **complement to traditional academic research**, extending the reach and accessibility of rigorous participatory methods while democratizing access to sophisticated research tools.
 
 Initial implementations across corporate, nonprofit, government, and community sectors demonstrate EGI's effectiveness in surfacing nuanced perspectives that traditional methods often miss. This paper presents the theoretical foundations, technical architecture, cross-sector applications, and preliminary findings from pilot deployments.
 
@@ -372,27 +372,47 @@ Each EGI phase is supported by a specialized AI agent:
 
 ### 5.3 Cultural Responsiveness Implementation
 
-The system includes a methodology database with 40+ participatory frameworks:
+The system includes a methodology database with 40+ participatory frameworks organized into five clusters:
 
-```javascript
-methodologies: [
-  {
-    name: "Sikolohiyang Pilipino",
-    principles: ["kapwa", "pakikiramdam", "hiya"],
-    questionPatterns: [...],
-    culturalMarkers: ["Filipino", "Pilipino", "kapwa"]
-  },
-  {
-    name: "Ubuntu Philosophy",
-    principles: ["collective identity", "community harmony"],
-    questionPatterns: [...],
-    culturalMarkers: ["African", "Ubuntu", "community"]
-  },
-  // ... 38+ additional methodologies
-]
-```
+**Indigenous & Land-Based Traditions**
+- Indigenous Circle Process (talking circles, consensus-building)
+- Seven Generations Thinking (long-term impact consideration)
+- Two-Eyed Seeing / Etuaptmumk (integrating Indigenous and Western knowledge)
+- Māori Kaupapa (collective benefit, cultural preservation)
+- Native American Peacemaking (restorative dialogue)
 
-The AI selects appropriate methodologies based on detected cultural context in the session description.
+**Asian & Pacific Philosophies**
+- Sikolohiyang Pilipino (kapwa, pakikiramdam, shared identity)
+- Confucian Harmony Ethics (social harmony, relational ethics)
+- Buddhist Mindful Inquiry (present-moment awareness, non-judgment)
+- Ho'oponopono (Hawaiian reconciliation and forgiveness)
+- Pasifika Talanoa (Pacific Islander narrative dialogue)
+
+**African & Diaspora Frameworks**
+- Ubuntu Philosophy (collective identity, "I am because we are")
+- Sankofa Principle (learning from the past to move forward)
+- African Palaver (community dialogue and dispute resolution)
+- Afrocentric Inquiry (centering African experiences and worldviews)
+
+**Latin American & Liberation Approaches**
+- Freirean Pedagogy (critical consciousness, dialogue as liberation)
+- Buen Vivir (living well in harmony with community and nature)
+- Participatory Action Research / PAR (community as co-researchers)
+- Popular Education (knowledge from lived experience)
+- Testimonio (narrative witness, voice of the marginalized)
+
+**Western Participatory Methods**
+- Appreciative Inquiry (strength-based, generative questions)
+- Community-Based Participatory Research / CBPR (equitable partnership)
+- Deliberative Democracy (structured public dialogue)
+- Photovoice (visual storytelling for advocacy)
+- World Café (conversational knowledge-sharing)
+- Open Space Technology (self-organizing dialogue)
+- Art of Hosting (participatory leadership)
+
+
+
+The AI selects appropriate methodologies based on detected cultural context in the session description, often blending approaches from multiple clusters when communities reflect diverse backgrounds.
 
 ### 5.4 Privacy and Data Sovereignty
 
